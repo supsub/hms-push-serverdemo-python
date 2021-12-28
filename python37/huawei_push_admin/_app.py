@@ -19,8 +19,8 @@ import time
 import urllib
 import urllib.parse
 
-from huawei.push_admin import _http
-from huawei.push_admin import _message_serializer
+from huawei_push_admin import _http
+from huawei_push_admin import _message_serializer
 
 
 class App(object):
