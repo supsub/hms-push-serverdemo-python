@@ -24,7 +24,7 @@ __author__ = 'Huawei'
 __license__ = 'Apache License 2.0'
 __url__ = 'https://developer.huawei.com/consumer/cn/'
 
-install_requires = ['requests>=2.20.1']
+install_requires = ['requests>=2.20.1', 'six >= 1.14.0']
 
 long_description = ('The Huawei Admin Python SDK enables server-side (backend) Python developers '
                     'to integrate Huawei into their services and applications.')
